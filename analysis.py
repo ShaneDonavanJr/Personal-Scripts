@@ -18,7 +18,11 @@ print(f"Total Players in Legendary: {len(data)}")
 # print(data.head)
 
 shanes_rating = data[ data["Username"] == "ZombieReaper" ]["Rating"].to_list()[0]
-user = "Death913"
+print(f"Shanes current ratting is {shanes_rating}")
+
+user = "DowJ"
+
+# Names of Legendary Players I've beaten - Death913 - DowJ
 
 # Death913
 user_rating = data[ data["Username"] == user ]["Rating"].to_list()[0]
