@@ -66,13 +66,13 @@ def analyze_array(
             print(fmt.format(k, v))
 
     # ---- KS Test Output ----
-    print("\nKolmogorov-Smirnov Results")
-    print("-" * (width + 15))
-    print(f"{'Testing significance level':>{width}} : {alpha}")
-    print(fmt.format("D-Statistic (K-S)", ks_stat))
-    print(fmt.format("Critical Value", critical_value))
-    print(fmt.format("P-Value", p_value))
-    print(f"{'Outcome':>{width}} : {outcome}")
+    # print("\nKolmogorov-Smirnov Results")
+    # print("-" * (width + 15))
+    # print(f"{'Testing significance level':>{width}} : {alpha}")
+    # print(fmt.format("D-Statistic (K-S)", ks_stat))
+    # print(fmt.format("Critical Value", critical_value))
+    # print(fmt.format("P-Value", p_value))
+    # print(f"{'Outcome':>{width}} : {outcome}")
 
 
 import numpy as np
